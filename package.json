@@ -1,0 +1,16 @@
+{
+  "name": "culture-rewind",
+  "version": "1.0.0",
+  "description": "A hip-hop and pop culture trivia time machine covering 1990\u20132018.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
