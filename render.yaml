@@ -1,3 +1,4 @@
+
 services:
   - type: web
     name: culture-rewind
@@ -5,4 +6,4 @@ services:
     plan: free
     buildCommand: npm install
     startCommand: npm start
-    healthCheckPath: /
+    healthCheckPath: /health
